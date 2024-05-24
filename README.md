@@ -1,6 +1,6 @@
 # Rasd
 Rasd: Semantic Shift Detection and Adaptation for Network Intrusion Detection
-![Rasd](https://github.com/ICL-ml4csec/Rasd/assets/62217808/140d7a09-edce-4bcf-9f70-e3dd711928a7)
+![Rasd](https://github.com/ICL-ml4csec/Rasd/assets/62217808/6cdd4536-7461-402f-874c-a788efba0f8f)
 
 # Overview
 
