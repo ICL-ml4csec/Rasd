@@ -47,7 +47,7 @@ Download and extract these files into the main directory of Rasd (i.e., `Rasd/`)
  
 # How to Use Rasd
 
-To utilize Rasd with our settings, please follow these steps to set up the required datasets and run the program.
+To utilize Rasd with our settings, please follow these steps to set up the required datasets and run the framework.
 
 ## Dataset Setup
 
@@ -129,7 +129,7 @@ python Main.py --dataset_name "CICIDS2017" --acceptance_err 0.07 --train_mode "p
 </details>
 
 ### Selection Rate
-Set the selection rate for building subsets for manual labeling using the '<b>--selection_rate</b>' option.
+Set the selection rate for building a subset for manual labeling using the '<b>--selection_rate</b>' option.
 
 Example:
 ```bash
