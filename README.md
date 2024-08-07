@@ -159,7 +159,7 @@ python Main.py --dataset_name "CICIDS2017" --acceptance_err 0.07 --train_mode "p
   title={Rasd: Semantic Shift Detection and Adaptation for Network Intrusion Detection},
   author={Alotaibi, Fahad and Maffeis, Sergio},
   booktitle={the 39th International Conference on ICT Systems Security and Privacy Protection (SEC 2024)},
-  pages={14},
+  pages={16--30},
   year={2024},
   organization={Springer}
 }
