@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--dataset_name', type=str, default="CICIDS2017", choices=["CICIDS2017", "CICIDS2018"])
 
-parser.add_argument('--acceptance_err', type=int, default=0.07, choices = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1], help="What is the threshold for shift detection (i.e., k-percentile)?")
+parser.add_argument('--acceptance_err', type=float, default=0.07, choices = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1], help="What is the threshold for shift detection (i.e., k-percentile)?")
 
 parser.add_argument('--train_mode', type=str, default="pre-train", choices = ["pre-train", "train-new"],
                     
@@ -31,7 +31,7 @@ parser.add_argument('--Detection_Method', type=str, default="Rasd", choices = ["
                     help="The method that will be used for shift detection.")
                     
 
-parser.add_argument('--selection_rate', type=int, default=0.05, choices = [0.01, 0.02, 0.03, 0.04, 0.05], help="How many samples would you select from the detected shift samples for human labeling?")
+parser.add_argument('--selection_rate', type=float, default=0.05, choices = [0.01, 0.02, 0.03, 0.04, 0.05], help="How many samples would you select from the detected shift samples for human labeling?")
 
 
 parser.add_argument('--selection_batch_size', type=int, default=3000, choices = [3000, 2000, 1000], help="The selection method batch size (refer to section 3.2 in the paper)")
